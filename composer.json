@@ -17,7 +17,8 @@
         "typo3/neos": "dev-master",
         "typo3/setup": "dev-master",
         "typo3/neosdemotypo3org": "dev-master",
-        "famelo/gerrit": "*"
+        "famelo/gerrit": "*",
+        "flowstarter/contact": "*"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",
