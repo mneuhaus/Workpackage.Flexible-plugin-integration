@@ -1,0 +1,79 @@
+#                                                                        #
+# Settings                                                               #
+#                                                                        #
+
+TYPO3:
+  TYPO3CR:
+    contentTypes:
+      'TYPO3.NeosDemoTypo3Org:Registration':
+        superTypes: ['TYPO3.Neos.ContentTypes:Plugin']
+        label: 'Editor Registration Plugin'
+
+      'TYPO3.NeosDemoTypo3Org:YouTube':
+        superTypes: ['TYPO3.Neos.ContentTypes:Headline']
+        icon: 'Images/Icons/White/youtube_icon-16.png'
+        label: 'YouTube'
+        properties:
+          video:
+            type: string
+            label: 'ID'
+            default: ''
+            group: 'video'
+            reloadOnChange: true
+          width:
+            type: integer
+            label: 'Width'
+            default: '400'
+            group: 'video'
+            reloadOnChange: true
+          height:
+            type: integer
+            label: 'Height'
+            default: '300'
+            group: 'video'
+            reloadOnChange: true
+        groups:
+          video:
+            label: 'Video'
+
+      'Flowstarter.Contact:ContactPlugin':
+        superTypes: ['TYPO3.Neos.ContentTypes:Plugin']
+        label: 'Contacts'
+        group: 'Plugins'
+        showUneditableOverlay: false
+        # configurationProcessors:
+        #  - '\TYPO3\Plugin\Blog\OptionsProvider\PluginConfigurationProcessor'
+        # properties:
+        #   test:
+        #     type: enum
+        #     group: 'pluginSettings'
+        #     default: '50-50'
+        #     priority: 100
+        #     optionsProvider: '\TYPO3\Plugin\Blog\OptionsProvider\TestOptionsProvider'
+        #     options:
+        #       values:
+        #         '50-50':
+        #           label: '50% / 50%'
+        #         '75-25':
+        #           label: '75% / 25%'
+        #     reloadOnChange: true
+        groups:
+          pluginSettings:
+            label: 'Plugin Settings'
+  Neos:
+    Plugins:
+      'Flowstarter.Contact:ContactPlugin':
+        label: 'Contacts'
+        pluginViews:
+          'Test':
+            label: 'Test'
+            controllerActions:
+              'Flowstarter\Contact\Controller\ContactPersonController': ['test']
+          'ContactShow':
+            label: 'Show Contact'
+            controllerActions:
+              'Flowstarter\Contact\Controller\ContactPersonController': ['show']
+          'ContactForm':
+            label: 'Edit Contact'
+            controllerActions:
+              'Flowstarter\Contact\Controller\ContactPersonController': ['edit']

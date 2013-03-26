@@ -12,6 +12,8 @@ Configuration/Production/
 Configuration/Testing/
 Data/
 Web/
-Packages/
+Packages/Application
+Packages/Framework
+Packages/Libraries
 bin/
 Configuration/Settings.yaml
