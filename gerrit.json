@@ -1,8 +1,19 @@
 {
 	"TYPO3.Flow": {
-		"[WIP][FEATURE] Improve resolving of view": "16392"
+		"[WIP][FEATURE] Improve resolving of view": "16392",
+		"[BUGFIX] Display/Log E_COMPILE_ERROR again": "19296"
 	},
 	"TYPO3.Fluid": {
 		"[FEATURE] Add various Setters to override Paths and Patterns": "16393"
+	},
+	"TYPO3.Neos.ContentTypes": {
+		"[PROTOTYPE] Flexible plugin integration": "18007"
+	},
+	"TYPO3.Neos": {
+		"[FEATURE] Add PluginService to Neos": "19303"
+	},
+	"TYPO3.TYPO3CR": {
+		"[FEATURE] Add ConfigurationProcessors for ContentTypes": "19285",
+		"[FEATURE] Add method to find Nodes beneath a path": "19284",
 	}
 }
