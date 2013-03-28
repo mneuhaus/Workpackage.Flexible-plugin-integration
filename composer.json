@@ -16,7 +16,6 @@
         "typo3/flow": "dev-master",
         "typo3/neos": "dev-master",
         "typo3/setup": "dev-master",
-        "typo3/neosdemotypo3org": "dev-master",
         "famelo/gerrit": "*",
         "flowstarter/contact": "*"
     },
