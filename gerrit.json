@@ -15,5 +15,6 @@
 	"TYPO3.TYPO3CR": {
 		"[FEATURE] Add ConfigurationProcessors for ContentTypes": "19285",
 		"[FEATURE] Add method to find Nodes beneath a path": "19284",
+		"[FEATURE] Filter Node->getParent by NodeType": "19422"
 	}
 }
