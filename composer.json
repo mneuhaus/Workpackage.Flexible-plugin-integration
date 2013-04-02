@@ -4,6 +4,10 @@
     "license": "LGPL-3.0+",
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/mneuhaus/Flexible-Plugin-Integration-SitePackage"
+        },
+        {
             "type": "composer",
             "url": "http://ci.typo3.robertlemke.net/job/composer-packages/ws/repository/"
         }
@@ -17,6 +21,7 @@
         "typo3/neos": "dev-master",
         "typo3/setup": "dev-master",
         "famelo/gerrit": "*",
+        "typo3/neosdemotypo3org": "*",
         "flowstarter/contact": "*"
     },
     "require-dev": {

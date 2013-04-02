@@ -6,8 +6,8 @@
 	"TYPO3.Fluid": {
 		"[FEATURE] Add various Setters to override Paths and Patterns": "16393"
 	},
-	"TYPO3.Neos.ContentTypes": {
-		"[PROTOTYPE] Flexible plugin integration": "18007"
+	"TYPO3.Neos.NodeTypes": {
+		"[PROTOTYPE] Flexible plugin integration": "19513"
 	},
 	"TYPO3.Neos": {
 		"[FEATURE] Add PluginService to Neos": "19303"
