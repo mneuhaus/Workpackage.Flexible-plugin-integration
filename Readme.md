@@ -5,7 +5,7 @@ http://forge.typo3.org/issues/45013
 ## Installation
 
 ```
-composer create-project workpackage/flexible-plugin-integration fpi
+composer create-project -s dev workpackage/flexible-plugin-integration fpi
 cd fpi
 ./flow gerrit:update
 ./flow doctrine:migrate
